@@ -1,0 +1,194 @@
+body{
+    margin: 0%;
+}
+
+header{
+   width:100%;
+   height: 70px;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   z-index: 50;
+}
+.logo{
+    height: 26.44px;
+    margin-left: 15px;
+}
+
+nav{
+    margin-right: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav a{
+    text-decoration: none;  
+    color: white;
+    font-size: 18px;
+  
+}
+nav a:hover {
+    opacity: 0.7;
+    color: tomato;
+}
+
+.banner{
+    height: 120vh;
+    width: 100%;
+    background-image: url("./images/071209FROOTI_Digital_2023_PAPL-WEB_2.jpg");
+    background-size: cover;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+}
+.imgbox{
+    width: 680px;
+    height: 700px;
+    background-color: #F09130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leafimgdiv{
+    width: 680px;
+    height: 1400px;
+    background-color: #F09130;
+    position: relative;
+    
+}
+.leafimg{
+    width: 190px;
+    margin-left: 200px;
+    margin-top: 500px;
+    transform: rotate(45deg);
+
+}
+.txt1{
+    width: 60%;
+    font-size: 80px;
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    left: 120px;
+    top:630px;
+    text-align: center;
+}
+.txtdiv{
+    width: 50%;
+    height: 1400px;
+    
+}
+.text2{
+    font-family: "merivaregular";
+    font-size: 23px;
+    line-height: 1.2;
+    text-align: left;
+    width: 309px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+
+.insta{
+    font-size: 40px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook{
+   
+    font-size:10em;
+}
+.fa-instagram{
+   
+    height: 15px;
+    width: 10px;
+}
+.fa-twitter{
+    
+    height: 15px;
+    width: 10px;
+}
+.fa-youtube{
+    
+    height: 15px;
+    width: 10px;
+}
+.fa-linkedin{
+    height: 15px;
+    width: 10px;
+}
+
+.icons{
+    padding-left: 90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.frimg{
+ width: 100%;
+ height: 120vh;
+ background-image: url("./images/ftimg.jpg");
+ background-size: cover;
+}
+
+.y{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+.address{
+    width: 100%;
+    height: 20px;
+
+}
+.mails{
+    width: 100%;
+}
+.mails a{
+    text-decoration: none;
+    color: black;
+}
+.mails a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.policy{
+    width:100%;
+}
+.policy a{
+    text-decoration: none;
+    color: black;
+}
+.policy a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.icons1{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    right: 280px;
+    margin-top: -.7%;
+    width: 115px;
+    height: 25px;
+}  
